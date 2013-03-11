@@ -1,0 +1,898 @@
+{
+	"1900": {
+		"total": 46.98,
+		"rind": 16.73,
+		"schwein": 25.09,
+		"schaf": 1.8,
+		"gefluegel": 1.7,
+		"sonstiges": 1.66
+	},
+	"1901": {
+		"total": 45.32999999999999,
+		"rind": 16.72,
+		"schwein": 23.63,
+		"schaf": 1.69,
+		"gefluegel": 1.69,
+		"sonstiges": 1.6
+	},
+	"1902": {
+		"total": 43.2,
+		"rind": 16.86,
+		"schwein": 21.52,
+		"schaf": 1.59,
+		"gefluegel": 1.71,
+		"sonstiges": 1.52
+	},
+	"1903": {
+		"total": 44.199999999999996,
+		"rind": 16.39,
+		"schwein": 22.99,
+		"schaf": 1.48,
+		"gefluegel": 1.77,
+		"sonstiges": 1.57
+	},
+	"1904": {
+		"total": 46.25000000000001,
+		"rind": 16.76,
+		"schwein": 24.67,
+		"schaf": 1.4,
+		"gefluegel": 1.77,
+		"sonstiges": 1.65
+	},
+	"1905": {
+		"total": 45.839999999999996,
+		"rind": 17.94,
+		"schwein": 22.95,
+		"schaf": 1.48,
+		"gefluegel": 1.86,
+		"sonstiges": 1.61
+	},
+	"1906": {
+		"total": 44.309999999999995,
+		"rind": 17.28,
+		"schwein": 22.27,
+		"schaf": 1.36,
+		"gefluegel": 1.83,
+		"sonstiges": 1.57
+	},
+	"1907": {
+		"total": 43.269999999999996,
+		"rind": 16.77,
+		"schwein": 21.72,
+		"schaf": 1.31,
+		"gefluegel": 1.81,
+		"sonstiges": 1.66
+	},
+	"1908": {
+		"total": 47.37,
+		"rind": 17.47,
+		"schwein": 25.13,
+		"schaf": 1.3,
+		"gefluegel": 1.77,
+		"sonstiges": 1.7
+	},
+	"1909": {
+		"total": 47.37,
+		"rind": 18.71,
+		"schwein": 23.84,
+		"schaf": 1.37,
+		"gefluegel": 1.74,
+		"sonstiges": 1.71
+	},
+	"1910": {
+		"total": 46.71,
+		"rind": 17.61,
+		"schwein": 24.28,
+		"schaf": 1.32,
+		"gefluegel": 1.81,
+		"sonstiges": 1.69
+	},
+	"1911": {
+		"total": 48.03000000000001,
+		"rind": 16.72,
+		"schwein": 26.59,
+		"schaf": 1.24,
+		"gefluegel": 1.77,
+		"sonstiges": 1.71
+	},
+	"1912": {
+		"total": 46.629999999999995,
+		"rind": 16.2,
+		"schwein": 25.79,
+		"schaf": 1.21,
+		"gefluegel": 1.8,
+		"sonstiges": 1.63
+	},
+	"1913": {
+		"total": 44.91,
+		"rind": 15,
+		"schwein": 25.29,
+		"schaf": 1.22,
+		"gefluegel": 1.79,
+		"sonstiges": 1.61
+	},
+	"1914": {
+		"total": 44.826,
+		"rind": 15.139,
+		"schwein": 25.076,
+		"schaf": 1.234,
+		"gefluegel": 1.772,
+		"sonstiges": 1.605
+	},
+	"1915": {
+		"total": 44.741,
+		"rind": 15.278,
+		"schwein": 24.862,
+		"schaf": 1.248,
+		"gefluegel": 1.753,
+		"sonstiges": 1.6
+	},
+	"1916": {
+		"total": 44.658,
+		"rind": 15.418,
+		"schwein": 24.648,
+		"schaf": 1.262,
+		"gefluegel": 1.735,
+		"sonstiges": 1.595
+	},
+	"1917": {
+		"total": 44.574000000000005,
+		"rind": 15.557,
+		"schwein": 24.433,
+		"schaf": 1.277,
+		"gefluegel": 1.717,
+		"sonstiges": 1.59
+	},
+	"1918": {
+		"total": 44.489,
+		"rind": 15.696,
+		"schwein": 24.219,
+		"schaf": 1.291,
+		"gefluegel": 1.698,
+		"sonstiges": 1.585
+	},
+	"1919": {
+		"total": 44.405,
+		"rind": 15.835,
+		"schwein": 24.005,
+		"schaf": 1.305,
+		"gefluegel": 1.68,
+		"sonstiges": 1.58
+	},
+	"1920": {
+		"total": 44.321000000000005,
+		"rind": 15.974,
+		"schwein": 23.791,
+		"schaf": 1.319,
+		"gefluegel": 1.662,
+		"sonstiges": 1.575
+	},
+	"1921": {
+		"total": 44.236,
+		"rind": 16.113,
+		"schwein": 23.577,
+		"schaf": 1.333,
+		"gefluegel": 1.643,
+		"sonstiges": 1.57
+	},
+	"1922": {
+		"total": 44.151999999999994,
+		"rind": 16.253,
+		"schwein": 23.362,
+		"schaf": 1.347,
+		"gefluegel": 1.625,
+		"sonstiges": 1.565
+	},
+	"1923": {
+		"total": 44.069,
+		"rind": 16.392,
+		"schwein": 23.148,
+		"schaf": 1.362,
+		"gefluegel": 1.607,
+		"sonstiges": 1.56
+	},
+	"1924": {
+		"total": 43.984,
+		"rind": 16.531,
+		"schwein": 22.934,
+		"schaf": 1.376,
+		"gefluegel": 1.588,
+		"sonstiges": 1.555
+	},
+	"1925": {
+		"total": 43.9,
+		"rind": 16.67,
+		"schwein": 22.72,
+		"schaf": 1.39,
+		"gefluegel": 1.57,
+		"sonstiges": 1.55
+	},
+	"1926": {
+		"total": 44.27,
+		"rind": 16.69,
+		"schwein": 23.15,
+		"schaf": 1.24,
+		"gefluegel": 1.62,
+		"sonstiges": 1.57
+	},
+	"1927": {
+		"total": 57.72,
+		"rind": 25.97,
+		"schwein": 27.24,
+		"schaf": 1.06,
+		"gefluegel": 1.75,
+		"sonstiges": 1.7
+	},
+	"1928": {
+		"total": 51.370000000000005,
+		"rind": 17.52,
+		"schwein": 29.1,
+		"schaf": 1.04,
+		"gefluegel": 1.88,
+		"sonstiges": 1.83
+	},
+	"1929": {
+		"total": 50.190000000000005,
+		"rind": 18.68,
+		"schwein": 26.69,
+		"schaf": 1,
+		"gefluegel": 1.98,
+		"sonstiges": 1.84
+	},
+	"1930": {
+		"total": 48.870000000000005,
+		"rind": 16.87,
+		"schwein": 27.21,
+		"schaf": 0.95,
+		"gefluegel": 2.07,
+		"sonstiges": 1.77
+	},
+	"1931": {
+		"total": 49.58,
+		"rind": 15.71,
+		"schwein": 29.1,
+		"schaf": 0.93,
+		"gefluegel": 2.05,
+		"sonstiges": 1.79
+	},
+	"1932": {
+		"total": 47.53000000000001,
+		"rind": 16.05,
+		"schwein": 26.96,
+		"schaf": 0.85,
+		"gefluegel": 1.95,
+		"sonstiges": 1.72
+	},
+	"1933": {
+		"total": 47.36,
+		"rind": 15.6,
+		"schwein": 27.23,
+		"schaf": 0.86,
+		"gefluegel": 1.97,
+		"sonstiges": 1.7
+	},
+	"1934": {
+		"total": 52.26,
+		"rind": 17.54,
+		"schwein": 29.95,
+		"schaf": 0.81,
+		"gefluegel": 2.08,
+		"sonstiges": 1.88
+	},
+	"1935": {
+		"total": 50.49,
+		"rind": 17.14,
+		"schwein": 28.73,
+		"schaf": 0.76,
+		"gefluegel": 2.05,
+		"sonstiges": 1.81
+	},
+	"1936": {
+		"total": 48.63,
+		"rind": 13.87,
+		"schwein": 30.16,
+		"schaf": 0.77,
+		"gefluegel": 2.09,
+		"sonstiges": 1.74
+	},
+	"1937": {
+		"total": 52.71,
+		"rind": 17.65,
+		"schwein": 30.24,
+		"schaf": 0.84,
+		"gefluegel": 2.12,
+		"sonstiges": 1.86
+	},
+	"1938": {
+		"total": 53.46,
+		"rind": 19.24,
+		"schwein": 29.3,
+		"schaf": 0.98,
+		"gefluegel": 2.06,
+		"sonstiges": 1.88
+	},
+	"1939": {
+		"total": 49.47800000000001,
+		"rind": 18.038,
+		"schwein": 26.835,
+		"schaf": 0.9,
+		"gefluegel": 1.831,
+		"sonstiges": 1.874
+	},
+	"1940": {
+		"total": 45.49599999999999,
+		"rind": 16.836,
+		"schwein": 24.371,
+		"schaf": 0.82,
+		"gefluegel": 1.602,
+		"sonstiges": 1.867
+	},
+	"1941": {
+		"total": 41.513,
+		"rind": 15.633,
+		"schwein": 21.906,
+		"schaf": 0.74,
+		"gefluegel": 1.373,
+		"sonstiges": 1.861
+	},
+	"1942": {
+		"total": 37.53099999999999,
+		"rind": 14.431,
+		"schwein": 19.441,
+		"schaf": 0.66,
+		"gefluegel": 1.144,
+		"sonstiges": 1.855
+	},
+	"1943": {
+		"total": 33.55,
+		"rind": 13.229,
+		"schwein": 16.977,
+		"schaf": 0.58,
+		"gefluegel": 0.916,
+		"sonstiges": 1.848
+	},
+	"1944": {
+		"total": 29.568,
+		"rind": 12.027,
+		"schwein": 14.512,
+		"schaf": 0.5,
+		"gefluegel": 0.687,
+		"sonstiges": 1.842
+	},
+	"1945": {
+		"total": 25.586999999999996,
+		"rind": 10.825,
+		"schwein": 12.048,
+		"schaf": 0.42,
+		"gefluegel": 0.458,
+		"sonstiges": 1.836
+	},
+	"1946": {
+		"total": 21.604,
+		"rind": 9.623,
+		"schwein": 9.583,
+		"schaf": 0.34,
+		"gefluegel": 0.229,
+		"sonstiges": 1.829
+	},
+	"1947": {
+		"total": 17.621,
+		"rind": 8.42,
+		"schwein": 7.118,
+		"schaf": 0.26,
+		"gefluegel": 0,
+		"sonstiges": 1.823
+	},
+	"1948": {
+		"total": 15.578999999999999,
+		"rind": 6.8,
+		"schwein": 6.111,
+		"schaf": 0.344,
+		"gefluegel": 0,
+		"sonstiges": 2.324
+	},
+	"1949": {
+		"total": 26.967,
+		"rind": 9.899,
+		"schwein": 13.654,
+		"schaf": 0.683,
+		"gefluegel": 0,
+		"sonstiges": 2.731
+	},
+	"1950": {
+		"total": 31.599999999999998,
+		"rind": 11.15,
+		"schwein": 16.65,
+		"schaf": 1.1,
+		"gefluegel": 0.95,
+		"sonstiges": 1.75
+	},
+	"1951": {
+		"total": 38.6,
+		"rind": 12.6,
+		"schwein": 21.8,
+		"schaf": 1.5,
+		"gefluegel": 1.2,
+		"sonstiges": 1.5
+	},
+	"1952": {
+		"total": 41.60000000000001,
+		"rind": 13.9,
+		"schwein": 23.2,
+		"schaf": 1.6,
+		"gefluegel": 1.2,
+		"sonstiges": 1.7
+	},
+	"1953": {
+		"total": 44,
+		"rind": 15.5,
+		"schwein": 23.4,
+		"schaf": 1.7,
+		"gefluegel": 1.5,
+		"sonstiges": 1.9
+	},
+	"1954": {
+		"total": 46.2,
+		"rind": 16,
+		"schwein": 24.9,
+		"schaf": 1.5,
+		"gefluegel": 1.7,
+		"sonstiges": 2.1
+	},
+	"1955": {
+		"total": 48,
+		"rind": 16.3,
+		"schwein": 26.5,
+		"schaf": 1.3,
+		"gefluegel": 1.7,
+		"sonstiges": 2.2
+	},
+	"1956": {
+		"total": 50.1,
+		"rind": 17.5,
+		"schwein": 27.1,
+		"schaf": 1.3,
+		"gefluegel": 2,
+		"sonstiges": 2.2
+	},
+	"1957": {
+		"total": 52.6,
+		"rind": 17.8,
+		"schwein": 28.8,
+		"schaf": 1.2,
+		"gefluegel": 2.4,
+		"sonstiges": 2.4
+	},
+	"1958": {
+		"total": 53.3,
+		"rind": 17.7,
+		"schwein": 28.9,
+		"schaf": 1.2,
+		"gefluegel": 3.1,
+		"sonstiges": 2.4
+	},
+	"1959": {
+		"total": 57.599999999999994,
+		"rind": 18.6,
+		"schwein": 29.4,
+		"schaf": 1.3,
+		"gefluegel": 3.9,
+		"sonstiges": 4.4
+	},
+	"1960": {
+		"total": 59.7,
+		"rind": 19.5,
+		"schwein": 30.2,
+		"schaf": 1.2,
+		"gefluegel": 4.4,
+		"sonstiges": 4.4
+	},
+	"1961": {
+		"total": 63.1,
+		"rind": 20.4,
+		"schwein": 31.4,
+		"schaf": 1.2,
+		"gefluegel": 5.6,
+		"sonstiges": 4.5
+	},
+	"1962": {
+		"total": 64.5,
+		"rind": 21.4,
+		"schwein": 31.9,
+		"schaf": 1.2,
+		"gefluegel": 5.4,
+		"sonstiges": 4.6
+	},
+	"1963": {
+		"total": 64,
+		"rind": 21.6,
+		"schwein": 31.2,
+		"schaf": 1.1,
+		"gefluegel": 5.6,
+		"sonstiges": 4.5
+	},
+	"1964": {
+		"total": 66.5,
+		"rind": 21,
+		"schwein": 33.9,
+		"schaf": 1.1,
+		"gefluegel": 6,
+		"sonstiges": 4.5
+	},
+	"1965": {
+		"total": 67.19999999999999,
+		"rind": 21.5,
+		"schwein": 33.9,
+		"schaf": 1,
+		"gefluegel": 6.3,
+		"sonstiges": 4.5
+	},
+	"1966": {
+		"total": 68.2,
+		"rind": 22.1,
+		"schwein": 33.7,
+		"schaf": 1,
+		"gefluegel": 6.9,
+		"sonstiges": 4.5
+	},
+	"1967": {
+		"total": 71.3,
+		"rind": 22.2,
+		"schwein": 36.3,
+		"schaf": 1,
+		"gefluegel": 7.2,
+		"sonstiges": 4.6
+	},
+	"1968": {
+		"total": 74.1,
+		"rind": 23.2,
+		"schwein": 37.7,
+		"schaf": 1.1,
+		"gefluegel": 7.5,
+		"sonstiges": 4.6
+	},
+	"1969": {
+		"total": 74.5,
+		"rind": 23.6,
+		"schwein": 37.3,
+		"schaf": 1.1,
+		"gefluegel": 7.9,
+		"sonstiges": 4.6
+	},
+	"1970": {
+		"total": 79,
+		"rind": 24.3,
+		"schwein": 40.2,
+		"schaf": 1.2,
+		"gefluegel": 8.6,
+		"sonstiges": 4.7
+	},
+	"1971": {
+		"total": 79.69999999999999,
+		"rind": 23.7,
+		"schwein": 41.4,
+		"schaf": 1.2,
+		"gefluegel": 8.8,
+		"sonstiges": 4.6
+	},
+	"1972": {
+		"total": 79,
+		"rind": 22.2,
+		"schwein": 42,
+		"schaf": 1.3,
+		"gefluegel": 9,
+		"sonstiges": 4.5
+	},
+	"1973": {
+		"total": 78.8,
+		"rind": 22.5,
+		"schwein": 41.7,
+		"schaf": 1.3,
+		"gefluegel": 8.7,
+		"sonstiges": 4.6
+	},
+	"1974": {
+		"total": 82.5,
+		"rind": 22.6,
+		"schwein": 44.6,
+		"schaf": 1.5,
+		"gefluegel": 8.8,
+		"sonstiges": 5
+	},
+	"1975": {
+		"total": 80.785,
+		"rind": 22.592,
+		"schwein": 42.544,
+		"schaf": 0.685,
+		"gefluegel": 8.9,
+		"sonstiges": 6.064
+	},
+	"1976": {
+		"total": 80.689,
+		"rind": 22.371,
+		"schwein": 42.735,
+		"schaf": 0.669,
+		"gefluegel": 8.7,
+		"sonstiges": 6.214
+	},
+	"1977": {
+		"total": 81.169,
+		"rind": 21.764,
+		"schwein": 43.62,
+		"schaf": 0.747,
+		"gefluegel": 8.967,
+		"sonstiges": 6.071
+	},
+	"1978": {
+		"total": 88.564,
+		"rind": 21.981,
+		"schwein": 50.803,
+		"schaf": 0.73,
+		"gefluegel": 9.03,
+		"sonstiges": 6.02
+	},
+	"1979": {
+		"total": 87.674,
+		"rind": 21.54,
+		"schwein": 50.646,
+		"schaf": 0.801,
+		"gefluegel": 8.723,
+		"sonstiges": 5.964
+	},
+	"1980": {
+		"total": 84.49500000000002,
+		"rind": 21.037,
+		"schwein": 48.209,
+		"schaf": 0.781,
+		"gefluegel": 8.565,
+		"sonstiges": 5.903
+	},
+	"1981": {
+		"total": 83.34400000000001,
+		"rind": 19.8,
+		"schwein": 48.991,
+		"schaf": 0.677,
+		"gefluegel": 8.207,
+		"sonstiges": 5.669
+	},
+	"1982": {
+		"total": 80.68500000000002,
+		"rind": 18.543,
+		"schwein": 47.554,
+		"schaf": 0.742,
+		"gefluegel": 8.159,
+		"sonstiges": 5.687
+	},
+	"1983": {
+		"total": 78.692,
+		"rind": 17.888,
+		"schwein": 47.087,
+		"schaf": 0.722,
+		"gefluegel": 7.46,
+		"sonstiges": 5.535
+	},
+	"1984": {
+		"total": 77.47200000000001,
+		"rind": 17.554,
+		"schwein": 46.187,
+		"schaf": 0.624,
+		"gefluegel": 7.412,
+		"sonstiges": 5.695
+	},
+	"1985": {
+		"total": 76.655,
+		"rind": 17.515,
+		"schwein": 45.568,
+		"schaf": 0.682,
+		"gefluegel": 7.355,
+		"sonstiges": 5.535
+	},
+	"1986": {
+		"total": 74.874,
+		"rind": 17.301,
+		"schwein": 44.247,
+		"schaf": 0.663,
+		"gefluegel": 7.436,
+		"sonstiges": 5.227
+	},
+	"1987": {
+		"total": 73.639,
+		"rind": 16.928,
+		"schwein": 43.64,
+		"schaf": 0.571,
+		"gefluegel": 7.5,
+		"sonstiges": 5
+	},
+	"1988": {
+		"total": 72.341,
+		"rind": 16.268,
+		"schwein": 42.92,
+		"schaf": 0.623,
+		"gefluegel": 7.753,
+		"sonstiges": 4.777
+	},
+	"1989": {
+		"total": 69.575,
+		"rind": 15.282,
+		"schwein": 41.692,
+		"schaf": 0.603,
+		"gefluegel": 7.641,
+		"sonstiges": 4.357
+	},
+	"1990": {
+		"total": 65.9,
+		"rind": 14.8,
+		"schwein": 40.6,
+		"schaf": 0.7,
+		"gefluegel": 7.4,
+		"sonstiges": 2.4
+	},
+	"1991": {
+		"total": 59.370000000000005,
+		"rind": 14.047,
+		"schwein": 37.239,
+		"schaf": 0,
+		"gefluegel": 8.084,
+		"sonstiges": 0
+	},
+	"1992": {
+		"total": 58.352000000000004,
+		"rind": 12.997,
+		"schwein": 36.893,
+		"schaf": 0,
+		"gefluegel": 8.462,
+		"sonstiges": 0
+	},
+	"1993": {
+		"total": 60.967,
+		"rind": 13.617,
+		"schwein": 38.779,
+		"schaf": 0,
+		"gefluegel": 8.571,
+		"sonstiges": 0
+	},
+	"1994": {
+		"total": 60.536,
+		"rind": 12.347,
+		"schwein": 39.158,
+		"schaf": 0,
+		"gefluegel": 9.031,
+		"sonstiges": 0
+	},
+	"1995": {
+		"total": 61.117000000000004,
+		"rind": 11.95,
+		"schwein": 39.521,
+		"schaf": 0,
+		"gefluegel": 9.646,
+		"sonstiges": 0
+	},
+	"1996": {
+		"total": 61.672,
+		"rind": 11.16,
+		"schwein": 40.16,
+		"schaf": 0,
+		"gefluegel": 10.352,
+		"sonstiges": 0
+	},
+	"1997": {
+		"total": 62.199999999999996,
+		"rind": 10,
+		"schwein": 40.3,
+		"schaf": 0.8,
+		"gefluegel": 8.9,
+		"sonstiges": 2.2
+	},
+	"1998": {
+		"total": 60.4,
+		"rind": 10.3,
+		"schwein": 38.3,
+		"schaf": 0.9,
+		"gefluegel": 8.8,
+		"sonstiges": 2.1
+	},
+	"1999": {
+		"total": 54.8,
+		"rind": 10.4,
+		"schwein": 41.4,
+		"schaf": 0.8,
+		"gefluegel": 0.1,
+		"sonstiges": 2.1
+	},
+	"2000": {
+		"total": 61,
+		"rind": 9.6,
+		"schwein": 39.1,
+		"schaf": 0.8,
+		"gefluegel": 9.5,
+		"sonstiges": 2
+	},
+	"2001": {
+		"total": 61,
+		"rind": 9.6,
+		"schwein": 39.1,
+		"schaf": 0.8,
+		"gefluegel": 9.5,
+		"sonstiges": 2
+	},
+	"2002": {
+		"total": 59.1,
+		"rind": 6.8,
+		"schwein": 38.9,
+		"schaf": 0.7,
+		"gefluegel": 10.8,
+		"sonstiges": 1.9
+	},
+	"2003": {
+		"total": 60.800000000000004,
+		"rind": 8.6,
+		"schwein": 39.5,
+		"schaf": 0.7,
+		"gefluegel": 10.5,
+		"sonstiges": 1.5
+	},
+	"2004": {
+		"total": 60.050000000000004,
+		"rind": 8.5,
+		"schwein": 38.95,
+		"schaf": 0.7,
+		"gefluegel": 10.5,
+		"sonstiges": 1.4
+	},
+	"2005": {
+		"total": 59.650000000000006,
+		"rind": 8.3,
+		"schwein": 39,
+		"schaf": 0.7,
+		"gefluegel": 10.45,
+		"sonstiges": 1.2
+	},
+	"2006": {
+		"total": 59.550000000000004,
+		"rind": 8.45,
+		"schwein": 39.1,
+		"schaf": 0.7,
+		"gefluegel": 9.95,
+		"sonstiges": 1.35
+	},
+	"2007": {
+		"total": 61.5,
+		"rind": 8.7,
+		"schwein": 39.9,
+		"schaf": 0.7,
+		"gefluegel": 10.6,
+		"sonstiges": 1.6
+	},
+	"2008": {
+		"total": 60.667,
+		"rind": 8.4,
+		"schwein": 39.167,
+		"schaf": 0.7,
+		"gefluegel": 10.9,
+		"sonstiges": 1.5
+	},
+	"2009": {
+		"total": 60.767,
+		"rind": 8.567,
+		"schwein": 38.9,
+		"schaf": 0.633,
+		"gefluegel": 11.267,
+		"sonstiges": 1.4
+	},
+	"2010": {
+		"total": 61.233,
+		"rind": 8.733,
+		"schwein": 39.4,
+		"schaf": 0.6,
+		"gefluegel": 11.233,
+		"sonstiges": 1.267
+	},
+	"2011": {
+		"total": 60.5,
+		"rind": 8.5,
+		"schwein": 39,
+		"schaf": 0.6,
+		"gefluegel": 11.2,
+		"sonstiges": 1.2
+	}
+}
