@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'Neuton';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/neuton-regular.eot);
+	src: local('Neuton Regular'), local('Neuton-Regular'), url(../fonts/neuton-regular.woff) format('woff'), url('../fonts/neuton-regular.ttf') format('truetype'), url('../fonts/neuton-regular.svg#Neuton-Regular') format('svg');
+}
+
+@font-face {
+	font-family: 'Neuton';
+	font-style: normal;
+	font-weight: 700;
+	src: url(../fonts/neuton-bold.eot);
+	src: local('Neuton Bold'), local('Neuton-Bold'), url(../fonts/neuton-bold.woff) format('woff'), url('../fonts/neuton-bold.ttf') format('truetype'), url('../fonts/neuton-bold.svg#Neuton-Bold') format('svg');
+}
+
+@font-face {
+	font-family: 'Neuton';
+	font-style: italic;
+	font-weight: 400;
+	src: url(../fonts/neuton-italic.eot);
+	src: local('Neuton Italic'), local('Neuton-Italic'), url(../fonts/neuton-italic.woff) format('woff'), url('../fonts/neuton-italic.ttf') format('truetype'), url('../fonts/neuton-italic.svg#Neuton-Italic') format('svg');
+}
+
+@font-face {
+	font-family: 'News Cycle';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/newscycle-regular.eot);
+	src: local('News Cycle Regular'), local('NewsCycle-Regular'), url(../fonts/newscycle-regular.woff) format('woff'), url('../fonts/newscycle-regular.ttf') format('truetype'), url('../fonts/newscycle-regular.svg#NewsCycle') format('svg');
+}
+
+@font-face {
+	font-family: 'News Cycle';
+	font-style: normal;
+	font-weight: 700;
+	src: url(../fonts/newscycle-bold.eot);
+	src: local('News Cycle Bold'), local('NewsCycle-Bold'), url(../fonts/newscycle-bold.woff) format('woff'), url('../fonts/newscycle-bold.ttf') format('truetype'), url('../fonts/newscycle-bold.svg#NewsCycle') format('svg');
+}

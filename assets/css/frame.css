@@ -1,0 +1,49 @@
+html, body {
+	background-color: #82BE1E;
+	color: #fff;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Neuton", "Georgia", Serif;
+}
+
+	#container {
+		
+		display: block;
+		position: relative;
+		width: 800px;
+		margin: 0px auto;
+		padding: 0px;
+		
+	}
+	
+		#head { }
+		
+			h1 {
+				
+				font-family: "News Cycle", sans-serif;
+				text-transform: uppercase;
+				color: #000;
+				font-weight: 900;
+				
+			}
+			
+		#content {}
+			
+			#content .item { }
+			
+				#content .item h2 {
+
+					font-family: "News Cycle", sans-serif;
+					text-transform: uppercase;
+					color: #333;
+					font-weight: 900;
+
+				}
+				
+				#content .item iframe {
+					
+					border: 5px solid #f00;
+					
+				}
+				
+			
