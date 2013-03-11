@@ -701,6 +701,16 @@ html, body {
 
 }
 
+@media screen and (max-width: 520px) {
+
+	#foot h2 {
+		
+		display: none;
+
+	}
+	
+}
+
 @media screen and (max-width: 439px) {
 		
 	/* mobile device 320×480 */
