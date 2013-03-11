@@ -8,7 +8,7 @@ $(document).ready(function(){
 	
 	/* load data */
 	
-	$.getJSON('data/consumption.json', function(data){
+	$.getJSON('data/data.json', function(data){
 		$consumption = data;
 		if ('load_callback' in window) {
 			window.load_callback();
