@@ -274,3 +274,33 @@ window.addEventListener("load",function() {
     window.scrollTo(0, 1);
   }, 0);
 });
+
+$(window).on("load resize", function(){
+	console.log($(window).width());
+	if ($(window).width() < 959) {
+		var _shift = $('#content-form').height();
+		$('#container').css('min-height', (
+			$(window).height()
+		));
+		$('#content').css('min-height', (
+			$(window).height()-(
+				$('#head').height()+
+				$('#foot').height()+
+				_shift
+			)
+		));
+		$('#content').css('padding-top', _shift);
+	} else {
+		/* reset everything */
+		$('#container').css('min-height','auto');
+		$('#content').css('min-height','auto');
+	}
+});
+
+var _pop = function(){
+	$('.share-pop').click(function(evt){
+		evt.preventDefault();
+		window.open($(this).attr('href'), "share", "width=500,height=300,status=no,scrollbars=no,resizable=no,menubar=no,toolbar=no");
+		return false;
+	});
+}

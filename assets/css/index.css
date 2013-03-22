@@ -1,5 +1,4 @@
 html, body {
-	background-color: #fff;
 	margin: 0px;
 	padding: 0px;
 	font-family: "Neuton", "Georgia", Serif;
@@ -60,6 +59,7 @@ html, body {
 					
 				}
 				
+				#content-form span.text,
 				#content-form label {
 					
 					height: 30px;
@@ -249,9 +249,28 @@ html, body {
 					
 			#social {
 				
-				text-align: right;
+				display: block;
+				position: relative;
+				float: right;
+				right: 15px;
+				top: 0px;
+				background-color: rgba(255,255,255,0.2);
+				padding: 10px;
+				border-radius: 5px;
+				margin-bottom: 15px;
 				
 			}
+			
+				#social span {
+				
+					display: block;
+					text-align: center;
+					margin-bottom: 10px;
+					line-height: 20px;
+					vertical-align: bottom;
+					font-size: 20px;
+				
+				}
 				
 				#social a {
 					
@@ -316,37 +335,17 @@ html, body {
 
 }
 
-@media screen and (min-width: 440px) and (max-width: 600px) {
-
-	#content-form label.input .hide {
-		
-		display: none;
-		
-	}
-
-}
-
-@media screen and (min-width: 440px) and (max-width: 540px) {
-
-	#content-form label.input {
-		
-		display: none;
-		
-	}
-
-}
-
-@media screen and (min-width: 440px) and (max-width: 959px) {
+@media screen and (max-width: 959px) {
 	
-	/* frame 640×400 */
+	body {
+
+		background-color: #f3ebe6;
+
+	}
 	
 	#container { 
 		display: block; 
-		position: absolute;
-		left: 0px;
-		top: 0px;
-		right: 0px;
-		bottom: 0px;
+		position: relative;
 		margin: 0px;
 		padding: 0px;
 	}
@@ -354,10 +353,7 @@ html, body {
 		#head {
 			
 			display: block;
-			position: absolute;
-			left: 0px;
-			right: 0px;
-			top: 0px;
+			position: relative;
 			height: 50px;
 			background-color: #82BE1E;
 			
@@ -383,11 +379,9 @@ html, body {
 		#content {
 			
 			display: block;
-			position: absolute;
-			left: 0px;
-			right: 0px;
-			top: 50px;
-			bottom: 40px;
+			position: relative;
+			margin: 0px;
+			padding: 40px 0px 0px;
 			
 		}
 				
@@ -395,49 +389,64 @@ html, body {
 				
 				display: block;
 				position: absolute;
-				right: 10px;
-				top: -40px;
+				left: 0px;
+				top: 0px;
+				right: 0px;
+				line-height: 31px;
+				padding: 5px 10px;
+				background-color: #A4E33C;
+				z-index: 1000;
 				
 			}
 			
+				#content-form form {
+					
+					margin: 0px;
+					
+				}
+			
+				#content-form span.text,
 				#content-form label {
 					
 					height: 20px;
 					line-height: 20px;
-					font-size: 14px;
+					font-size: 20px;
 					padding: 0px;
-					margin: 0px 5px 0px 0px;
+					margin: 0px 10px 0px 0px;
 					vertical-align: middle;
 					
 				}
-			
-				#content-form label.input {
+				
+				#content-form label input {
 					
 					/* display: none; */
+					margin-right: 5px;
 					
 				}
 			
 			#intro {
 				
 				display: block;
-				position: absolute;
+				position: relative;
 				left: 0px;
 				right: 0px;
 				top: 0px;
 				bottom: 0px;
-				padding: 100px 50px;
+				padding: 50px 50px;
 				z-index: 5;
 				
 			}
 			
+			#intro.hidden {
+
+				display: none;
+
+			}
+			
 			#content-result {
 				
-				display: block;
-				position: absolute;
-				left: 0px;
-				right: 0px;
-				top: 0px;
-				bottom: 0px;
+				display: none;
+				position: relative;
 				padding: 0px;
 				overflow: hidden;
 				overflow-x: hidden;
@@ -449,7 +458,7 @@ html, body {
 			
 				#content-result.display {
 					
-					z-index: 600;
+					display: block;
 
 				}
 			
@@ -457,7 +466,7 @@ html, body {
 
 					display: block;
 					position: relative;
-					min-width: 450px;
+					min-width: 320px;
 					padding: 15px 0px 15px 10px;
 					background-color: #f3ebe6;
 
@@ -613,14 +622,40 @@ html, body {
 							color: #f39400;
 
 						}
+			
+		#social {
+			
+			display: block;
+			position: relative;
+			margin: 5px 15px 15px 5px;
+			padding: 10px;
+			border-radius: 5px;
+			background-color: rgba(255,255,255,0.2);
+			text-align: center;
+			
+		}
+		
+			#social span {
+				
+				line-height: 20px;
+				vertical-align: bottom;
+				font-size: 20px;
+				margin-right: 5px;
+				
+			}
+	
+			#social a {
+
+				font-family: sans-serif;
+				margin-right: 5px;
+
+			}
+
 				
 		#foot {
 			
 			display: block;
-			position: absolute;
-			left: 0px;
-			right: 0px;
-			bottom: 0px;
+			position: relative;
 			height: 40px;
 			background-color: #82BE1E;
 
@@ -687,375 +722,63 @@ html, body {
 			
 			#link-odc {
 				
-				display: block;
-				position: relative;
-				margin: 0px;
-				padding: 0px;
-				font-size: 0px;
-				text-indent: -1000px;
-				width: 100px;
-				height: 40px;
-				background: url(../img/opendatacity-small.png) top left no-repeat;
+				color: #f3ebe6;
+				text-decoration: none;
+				font-size: 16px !important;
 				
 			}
 
 }
 
-@media screen and (max-width: 520px) {
-
+@media screen and (max-width: 500px) {
+	
 	#foot h2 {
-		
-		display: none;
-
+		display: none !important;
 	}
 	
 }
 
-@media screen and (max-width: 439px) {
-		
-	/* mobile device 320×480 */
+@media screen and (max-width: 340px) {
 	
-	#container { 
-		
-		display: block; 
-		position: relative;
-		margin: 0px;
-		padding: 0px;
-
+	#foot a span {
+		display: none !important;
 	}
 	
-		#head {
-			
-			display: block;
-			position: relative;
-			height: 50px;
-			background-color: #82BE1E;
-			
-		}
-		
-			#head h1 {
-				
-				display: block;
-				position: absolute;
-				left: 0px;
-				top: 0px;
-				height: 50px;
-				line-height: 50px;
-				margin: 0px;
-				padding: 0px 10px;
-				font-family: "News Cycle", sans-serif;
-				text-transform: uppercase;
-				color: #000;
-				font-size: 30px;
-				
-			}
-		
-		#content {
-			
-			display: block;
-			position: relative;
-			padding-top: 40px;
-			min-height: 290px;
-			
-		}
-				
-			#content-form {
-				
-				display: block;
-				position: absolute;
-				left: 0px;
-				right: 0px;
-				top: 0px;
-				background-color: #a4e33c;
-				height: 40px;
-				line-height: 40px;
-				z-index: 600;
-				
-			}
-			
-				#content-form label.input {
-					
-					display: none;
-					
-				}
+}
 
-				#content-form label.radio {
+@media screen and (max-width: 600px) {
+	
+	#content-form span.large-1 {
+		display: none !important;
+	}
+	
+}
 
-					margin: 0px 5px;
-					
-				}
-			
-			#intro {
-				
-				display: block;
-				position: relative;
-				left: 0px;
-				right: 0px;
-				padding: 20px;
-				margin: 0px;
-				overflow: hidden;
-				
-			}
-			
-				#intro.hidden {
-					
-					display: none;
-					
-				}
-			
-			#content-result {
-				
-				display: none;
-				
-			}
-			
-				#content-result.display {
-					
-					display: block;
-					position: relative;
-					margin: 0px;
-					padding: 0px;
-					overflow: hidden;
-					overflow-x: hidden;
-					overflow-y: auto;
-					background-color: #f3ebe6;
-					
-				}
-			
-				#content-canvas {
+@media screen and (max-width: 540px) {
+	
+	#content-form span.large-2 {
+		display: none !important;
+	}
+	
+}
 
-					display: block;
-					position: relative;
-					padding: 15px 0px 15px 10px;
-					background-color: #f3ebe6;
+@media screen and (max-width: 480px) {
+	
+	#content-form span.large-3 {
+		display: none !important;
+	}
+	
+}
 
-				}
-
-					#content-canvas .animal-row {
-
-						display: block;
-						position: relative;
-						float: left;
-						margin: 0px 10px 10px 0px;
-						padding-bottom: 25px;
-						min-width: 100px;
-
-					}
-
-					#content-canvas .animal-count {
-
-						display: block;
-						position: absolute;
-						left: 0px;
-						bottom: 0px;
-						margin: 0px;
-						padding: 0px 3px;
-						background-color: rgba(255,255,255,0.7);
-						font-family: sans-serif;
-						font-weight: bold;
-						height: 20px;
-						line-height: 22px;
-						white-space: nowrap;
-
-					}
-
-					#content-canvas .animal-display {
-
-						display: block;
-						position: relative;
-						margin: 0px;
-						padding: 0px;
-						float: left;
-						background-position: top right;
-						background-repeat: no-repeat;
-
-					}
-
-						#content-canvas .animal-display+.animal-display {
-
-							background-position: top left;
-
-						}
-
-						#content-canvas #animal-rind .animal-display {
-
-							width: 120px;
-							height: 85px;
-							background-image: url(../img/animal-rind.png);
-
-						}
-
-						#content-canvas #animal-rind .animal-count {
-
-							margin-top: 65px;
-							color: #473857;
-
-						}
-
-						#content-canvas #animal-schwein .animal-display {
-
-							width: 75px;
-							height: 42px;
-							background-image: url(../img/animal-schwein.png);
-
-						}
-
-						#content-canvas #animal-schwein .animal-count {
-
-							margin-top: 22px;
-							color: #e35e75;
-
-						}
-
-						#content-canvas #animal-schaf .animal-display {
-
-							width: 60px;
-							height: 51px;
-							background-image: url(../img/animal-schaf.png);
-
-						}
-
-						#content-canvas #animal-schaf .animal-count {
-
-							margin-top: 31px;
-							color: #7f2145;
-
-						}
-
-						#content-canvas #animal-gans .animal-display {
-
-							width: 30px;
-							height: 45px;
-							background-image: url(../img/animal-gans.png);
-
-						}
-
-						#content-canvas #animal-gans .animal-count {
-
-							margin-top: 25px;
-							color: #5ea1b8;
-
-						}
-
-						#content-canvas #animal-ente .animal-display {
-
-							width: 40px;
-							height: 33px;
-							background-image: url(../img/animal-ente.png);
-
-						}
-
-						#content-canvas #animal-ente .animal-count {
-
-							margin-top: 13px;
-							color: #e6421e;
-
-						}
-
-						#content-canvas #animal-pute .animal-display {
-
-							width: 30px;
-							height: 31px;
-							background-image: url(../img/animal-pute.png);
-
-						}
-
-						#content-canvas #animal-pute .animal-count {
-
-							margin-top: 11px;
-							color: #ba0719;
-
-						}
-
-						#content-canvas #animal-huhn .animal-display {
-
-							width: 30px;
-							height: 20px;
-							background-image: url(../img/animal-huhn.png);
-
-						}
-
-						#content-canvas #animal-huhn .animal-count {
-
-							margin-top: 0px;
-							color: #f39400;
-
-						}
-				
-		#foot {
-			
-			display: block;
-			position: relative;
-			height: 40px;
-			background-color: #82BE1E;
-
-		}
-		
-			#foot .pull-left {
-				
-				display: block;
-				position: absolute;
-				left: 5px;
-				bottom: 0px;
-				
-			}
-
-			#foot .pull-right {
-				
-				display: block;
-				position: absolute;
-				right: 0px;
-				bottom: 0px;
-				
-			}
-			
-			#foot h2 {
-				
-				display: none;
-				
-			}
-
-			#foot a {
-			
-				display: block;
-				position: relative;
-				font-size: 14px;
-				margin: 0px;
-				padding: 0px 3px;
-				float: left;
-				height: 40px;
-				line-height: 40px;
-				list-style: none;
-				
-			}
-			
-			#link-boell {
-				
-				display: block;
-				position: relative;
-				margin: 0px;
-				padding: 0px;
-				font-size: 0px;
-				text-indent: -1000px;
-				width: 200px;
-				height: 40px;
-				background: url(../img/heinrich-boell-stiftung-small.png) top left no-repeat;
-				
-			}
-			
-			#link-odc {
-				
-				display: block;
-				position: relative;
-				margin: 0px;
-				padding: 0px;
-				font-size: 0px;
-				text-indent: -1000px;
-				width: 100px;
-				height: 40px;
-				background: url(../img/opendatacity-small.png) top left no-repeat;
-				
-			}	
+@media screen and (max-width: 410px) {
+	
+	#content-form span.large-4 {
+		display: none !important;
+	}
+	#content-form span.small-4 {
+		display: inline !important;
+	}
+	
 }
 
 .clear {
