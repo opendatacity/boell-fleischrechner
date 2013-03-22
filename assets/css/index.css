@@ -746,7 +746,7 @@ html, body {
 	
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
 	
 	#content-form span.large-1 {
 		display: none !important;
@@ -754,7 +754,7 @@ html, body {
 	
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 590px) {
 	
 	#content-form span.large-2 {
 		display: none !important;
@@ -762,7 +762,7 @@ html, body {
 	
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 530px) {
 	
 	#content-form span.large-3 {
 		display: none !important;
@@ -770,7 +770,7 @@ html, body {
 	
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 460px) {
 	
 	#content-form span.large-4 {
 		display: none !important;
