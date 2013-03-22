@@ -153,7 +153,7 @@ var consuption_display = function(data){
 	$('#content-result').addClass('display');
 	$('#intro').addClass('hidden');
 
-	var $txti = [];
+	var $txti = 0;
 
 	var $canvas = $('#content-canvas');
 	var i;
@@ -186,7 +186,7 @@ var consuption_display = function(data){
 		
 		$row.append('<div class="clear"></div>');
 		
-		$txti.push(data[animal].toFixed(0)+' '+$animal_labels[animal][((data[animal].toFixed(0) === "1") ? 0 : 1)]);
+		$txti += data[animal]; //.push(data[animal].toFixed(0)+' '+$animal_labels[animal][((data[animal].toFixed(0) === "1") ? 0 : 1)]);
 		
 	}
 
@@ -194,18 +194,18 @@ var consuption_display = function(data){
 	
 	/* append social links */
 
-	var $text = $txti.pop();	
-	$text = encodeURIComponent("Ich habe "+($txti.join(', '))+" und "+$text+" gegessen: "+location.href+" – und Du? #fleischrechner");
+	//var $text = $txti.pop();	
+	$text = encodeURIComponent("Ich habe "+($txti.toFixed(0))+" Tiere gegessen: "+location.href+" – und Du? #fleischrechner");
 
 	var $url = encodeURIComponent(location.protocol+'//'+location.hostname+location.pathname);
 	
 	var $social = $('<div id="social"></div>');
 	$social.append('<span>Teilen auf: </span>');
-	$social.append('<a class="btn btn-mini btn-info" href="https://twitter.com/intent/tweet?url='+$url+'&amp;text='+$text+'&amp;via=boell_stiftung" id="share-twitter" class="share-pop">Twitter</a>');
-	$social.append('<a class="btn btn-mini btn-info" href="http://www.facebook.com/sharer/sharer.php?u='+$url+'&amp;t='+$text+'" id="share-facebook" class="share-pop">Facebook</a>');
-	$social.append('<a class="btn btn-mini btn-info" href="https://plus.google.com/share?url='+$url+'" id="share-google" class="share-pop">Google+</a>');
-
-	$canvas.append($social);
+	$social.append('<a class="btn btn-mini btn-info share-pop" href="https://twitter.com/intent/tweet?url='+$url+'&amp;text='+$text+'&amp;via=boell_stiftung" id="share-twitter">Twitter</a>');
+	$social.append('<a class="btn btn-mini btn-info share-pop" href="http://www.facebook.com/sharer/sharer.php?u='+$url+'&amp;t='+$text+'" id="share-facebook">Facebook</a>');
+	$social.append('<a class="btn btn-mini btn-info share-pop" href="https://plus.google.com/share?url='+$url+'" id="share-google">Google+</a>');
+	$canvas.prepend($social);
+	_pop();
 
 };
 
