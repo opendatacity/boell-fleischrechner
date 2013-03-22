@@ -195,7 +195,7 @@ var consuption_display = function(data){
 	/* append social links */
 
 	//var $text = $txti.pop();	
-	$text = encodeURIComponent("Ich habe "+($txti.toFixed(0))+" Tiere gegessen: "+location.href+" – und Du? #fleischrechner");
+	$text = encodeURIComponent("Ich habe seit meiner Geburt "+($txti.toFixed(0))+" Tiere gegessen. Und Du? #fleischrechner");
 
 	var $url = encodeURIComponent(location.protocol+'//'+location.hostname+location.pathname);
 	
